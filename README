@@ -1,0 +1,16 @@
+== Overview
+
+Plugin makes it easy to change database text field encoding on read and before write to database (recode it on fly).
+Typical usage scenario is when you have UTF-8 Rails application and legacy database that is not UTF-8 encoded.
+Originally published here http://www.ruby-forum.com/topic/122881#910282
+
+== Usage
+  
+recode_legacy_database :from => "ISO-8859-1", :to => "UTF-8"
+
+== License
+
+Public domain. Please put watch at github.com if you like it :)
+
+* Tomasz Bak [ t.bak@selleo.com ]
+
